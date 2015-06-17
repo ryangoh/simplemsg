@@ -1,0 +1,7 @@
+bundle exec bin/simplemsg hello --wish Good
+
+chmod a+x ./lib/simplemsg.rb
+
+gem build simplemsg.gemspec
+
+gem install ./simplemsg-0.1.2.gem

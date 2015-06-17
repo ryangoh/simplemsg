@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'simplemsg'
+
+
+Simplemsg::Application.start(ARGV)
